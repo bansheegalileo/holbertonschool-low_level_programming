@@ -1,7 +1,9 @@
 #include<stdio.h>
 
 /**
- * main - prints every digit of pi- pruned for repitiition and put in numerical order
+ * main - prints every digit of pi
+ * pruned for repitiition 
+ * and put in numerical order
  *
  * Return: Always (Success)
  */
