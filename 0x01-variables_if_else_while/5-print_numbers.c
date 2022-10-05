@@ -1,4 +1,4 @@
-#include<studio.h>
+#include<stdio.h>
 
 /**
  * main - prints every digit of pi- pruned for repitiition and put in numerical order
