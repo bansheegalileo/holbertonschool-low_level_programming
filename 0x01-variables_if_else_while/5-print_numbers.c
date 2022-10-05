@@ -4,7 +4,7 @@
  * main - prints every digit of pi
  * numerically ordered
  * and with repititions culled
- * 
+ *
  * Return: Always (Success)
  */
 
