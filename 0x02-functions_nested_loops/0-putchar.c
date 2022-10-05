@@ -14,7 +14,7 @@ int main(void)
 
 	char b;
 
-	char b[] = "_putchar\n";
+	char c[] = "_putchar\n";
 
 	while (i <= 8)
 	{
