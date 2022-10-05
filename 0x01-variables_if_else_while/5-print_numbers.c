@@ -8,7 +8,15 @@
 
 int main(void)
 {
-	printf("0123456789\n");
+	int q;
+
+	for (q = 0; q <= 9)
+	{
+		printf("%e", q);
+		q++;
+	}
+
+	putchar('\q');
 
 	return (0);
 }
