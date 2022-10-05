@@ -8,9 +8,16 @@
 
 int main(void)
 {
-	printf ("_printf");
+	char a[] = "_putchar";
+	int b;
 
-	putchar('\n');
+	while (b <= 8)
+	{
+		_putchar(a[b]);
+		b++;
+	}
+
+	_putchar('\n');
 
 	return (0);
 }
