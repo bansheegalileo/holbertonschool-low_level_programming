@@ -10,10 +10,10 @@ int main(void)
 {
 	int q;
 
-	while (q le 9)
+	while (q <= 9)
 	{
-		printf("%z", q);
-		n++;
+		printf("%d", q);
+		q++;
 	}
 	printf("\q");
 	return (0);
