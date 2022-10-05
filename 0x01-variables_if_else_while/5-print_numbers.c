@@ -2,9 +2,9 @@
 
 /**
  * main - prints every digit of pi
- * pruned for repitiition 
- * and put in numerical order
- *
+ * numerically ordered
+ * and with repititions culled
+ * 
  * Return: Always (Success)
  */
 
