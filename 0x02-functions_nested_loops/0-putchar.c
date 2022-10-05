@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * Main - main
+ * main - main
  *
  * Description: prints _putchar
  *
@@ -10,16 +10,18 @@
 
 int main(void)
 {
-	char a[] = "_putchar";
-	int b;
+	int a = 0;
 
-	while (b <= 8)
+	char b;
+
+	char b[] = "_putchar\n";
+
+	while (i <= 8)
 	{
-		_putchar(a[b]);
-		b++;
+		c = s[i];
+		_putchar(c);
+		i++;
 	}
-
-	_putchar('\n');
 
 	return (0);
 }
