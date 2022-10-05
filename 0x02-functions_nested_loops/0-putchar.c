@@ -16,11 +16,11 @@ int main(void)
 
 	char c[] = "_putchar\n";
 
-	while (i <= 8)
+	while (a <= 8)
 	{
-		c = s[i];
-		_putchar(c);
-		i++;
+		b = c[a];
+		_putchar(b);
+		a++;
 	}
 
 	return (0);
