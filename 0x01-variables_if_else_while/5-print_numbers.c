@@ -10,13 +10,13 @@ int main(void)
 {
 	int q;
 
-	for (q = 0; q <= 9)
+	while (q <= 9)
 	{
-		printf("%e", q);
+		printf("%d", q);
 		q++;
 	}
 
-	putchar('\q');
+	putchar('\n');
 
 	return (0);
 }
