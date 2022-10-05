@@ -8,15 +8,7 @@
 
 int main(void)
 {
-	int q;
+	printf("0123456789\n");
 
-	while (q <= 9)
-	{
-		printf("%d", q);
-		q++;
-	}
-
-	putchar('\q');
-	
 	return (0);
 }
