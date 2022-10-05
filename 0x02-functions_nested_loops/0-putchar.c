@@ -14,8 +14,10 @@ int main(void)
 	int b;
 
 	while (b <= 8)
+	{
 		_putchar(a[b]);
 		b++;
+	}
 
 	_putchar('\n');
 
