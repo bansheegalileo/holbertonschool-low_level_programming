@@ -15,6 +15,6 @@ int main(void)
 		printf("%d", q);
 		q++;
 	}
-	printf("\q");
+	printf('\q');
 	return (0);
 }
