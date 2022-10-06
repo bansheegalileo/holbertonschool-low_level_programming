@@ -7,7 +7,7 @@
  *
  * Return: 0
 */
-0
+
 void rev_string(char *s)
 {
 	int a, b;
