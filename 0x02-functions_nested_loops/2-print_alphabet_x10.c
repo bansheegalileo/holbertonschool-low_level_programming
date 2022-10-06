@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - alphabet tin timez
+ * main - main
+ *
+ * Description: alphabet tin timez
  *
  * Return: 0
  */
