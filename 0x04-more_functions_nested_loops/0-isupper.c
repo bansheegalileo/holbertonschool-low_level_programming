@@ -3,7 +3,7 @@
 /**
  * _isupper - is it upper
  *
- *@c: int
+ * @c: int
  *
  * Return: condit.
  */
@@ -15,5 +15,7 @@ int _isupper(int c)
 		return (1);
 	}
 	else
+	{	
 		return (0);
+	}
 }
