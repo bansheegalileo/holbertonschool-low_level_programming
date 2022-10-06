@@ -1,20 +1,19 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * _isupper - is it upper?
+ * _isupper - is it upper
  *
- * @c: char
+ *@c: int
  *
- * Return: 1 if upper, 0 otherwise
-*/
+ * Return: condit.
+ */
 
 int _isupper(int c)
 {
-	if (c >= 65 && c <= 90)
+	if ((c >= 65) && (c <= 90))
 	{
 		return (1);
 	}
-
-	return (0);
+	else
+		return (0);
 }
