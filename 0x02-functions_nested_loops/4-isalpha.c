@@ -2,7 +2,7 @@
 
 /**
  * _isalpha - is it alphabet?
- * 
+ *
  *@c: char
  *
  * Return: 1 if true, 0 if not
