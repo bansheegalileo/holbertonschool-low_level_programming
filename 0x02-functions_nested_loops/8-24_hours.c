@@ -1,30 +1,36 @@
-#include"main.h"
+#include "main.h"
 
 /**
- * jack_bauer- each minute of jb
- *
- * Return: conditional
-*/
+  * print_triangle - threeeeeee sides babeeeeey
+  *
+  * @size: sizangle
+  *
+  * Return: 0
+  */
 
-void jack_bauer(void)
+void print_triangle(int size)
 {
-	int h;
-	int m;
+	int a, b, c;
 
-	for (h = 0; h <= 23;)
+	if (size <= 0)
 	{
-		h++;
-
-		for (m = 0; m <= 59;)
+		_putchar('\n');
+	}
+	else
+	{
+		for (a = 0; a < size; a++)
 		{
-			m++;
-			_putchar((h / 10) + 0);
-			_putchar((h % 10) + 0);
-			_putchar(':');
-			_putchar((m / 10) + 0);
-			_putchar((m % 10) + 0);
+			for (b = size - a; b > 1; b--)
+			{
+				_putchar(32);
+			}
+
+			for (c = 0; c <= x; c++)
+			{
+				_putchar(35);
+			}
+
 			_putchar('\n');
 		}
-
 	}
 }
