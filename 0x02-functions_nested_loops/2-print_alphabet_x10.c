@@ -1,29 +1,27 @@
 #include "main.h"
 
 /**
- * main - main
+ * print_alphabet_x10 - alphabittintimez
  *
- * Description: alphabet tin timez
+ * Description: using _putchar
  *
- * Return: 0
+ * Return: Always 0.
  */
-
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
-        char q;
+	char a;
+	int b;
 
-	int z;
-
-	while (z <= 10)
+	for (b = 1; b <= 10;)
 	{
-        	for (q = 'a'; q <= 'z';)
-        	{
-               		_putchar(q);
-               		q++;
-        	}
+		for (c = 'a'; c <= 'z';)
+		{
+			_putchar(c);
+			c++;
+		}
 
-        _putchar('\n');
-	z++;
+		_putchar('\n');
+		a++;
 
 	}
 }
