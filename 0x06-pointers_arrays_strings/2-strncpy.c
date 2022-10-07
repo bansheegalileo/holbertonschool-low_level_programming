@@ -16,6 +16,8 @@ char *_strncpy(char *dest, char *src, int n)
 {
 	int q;
 
+	q = 0;
+
 	while (q < n && *(src + q))
 	{
 		*(dest + q) = *(src + q);
@@ -26,6 +28,7 @@ char *_strncpy(char *dest, char *src, int n)
 	{
 		*(dest + q) = '\0';
 		++q;
+	}
 
 	return (dest);
 }
