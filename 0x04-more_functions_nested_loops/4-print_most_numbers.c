@@ -2,7 +2,7 @@
 
 /**
  * print_most_numbers - drop 2 and 4
- * 
+ *
  * @i: number
  *
  * Return: 0
