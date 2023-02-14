@@ -5,7 +5,7 @@
  * print_diagsums - 2diagsums
  *
  * @a: int
- * 
+ *
  * @size: int size
  *
  * Return: 0
