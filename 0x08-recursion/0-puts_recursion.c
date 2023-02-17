@@ -2,7 +2,6 @@
 #include "main.h"
 
 /**
- *
  * _puts_recursion - recurses
  *
  * @s: string
