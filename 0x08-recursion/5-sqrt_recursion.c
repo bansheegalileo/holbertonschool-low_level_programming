@@ -1,5 +1,5 @@
 #include "main.h"
-int _subsqrt(int n, int st, int ed);
+int _subsqrt(int n, long st, long ed);
 
 /**
  * _sqrt_recursion - calQl8s square root of n
@@ -32,9 +32,9 @@ int _sqrt_recursion(int n)
  * Return: natural square root of n between st and ed, or -1 
  */
 
-int _subsqrt(int n, int st, int ed)
+int _subsqrt(int n, long st, long ed)
 {
-	int md = (st + ed) / 2;
+	long md = (st + ed) / 2;
 
 	if (st > ed)
 		return (-1);
