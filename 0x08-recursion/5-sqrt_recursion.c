@@ -29,7 +29,7 @@ int _sqrt_recursion(int n)
  *
  * @ed: end of range
  *
- * Return: natural square root of n between st and ed, or -1 
+ * Return: natural square root of n between st and ed, or -1
  */
 
 int _subsqrt(int n, long st, long ed)
