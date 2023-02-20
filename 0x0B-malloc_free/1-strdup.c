@@ -3,7 +3,8 @@
 #include <stdlib.h>
 
 /**
- * _strdup - returns ptr to a newly alloc8d space in mem with str copy given as param
+ * _strdup - returns ptr to a newly alloc8d space in mem
+ * with str copy given as param
  *
  * @str: string to copy
  *
