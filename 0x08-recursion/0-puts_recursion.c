@@ -5,7 +5,6 @@
  * _puts_recursion - recurses
  *
  * @s: string
- *
  */
 
 void _puts_recursion(char *s)
