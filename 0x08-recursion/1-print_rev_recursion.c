@@ -5,7 +5,6 @@
  * _print_rev_recursion - recurses and reverses
  *
  * @s: string
- *
  */
 
 void _print_rev_recursion(char *s)
