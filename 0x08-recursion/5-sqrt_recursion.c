@@ -7,7 +7,6 @@ int _subsqrt(int n, long st, long ed);
  * @n: base number
  *
  * Return: square root of n or -1 if it doesn't have one
- *
  */
 
 int _sqrt_recursion(int n)
