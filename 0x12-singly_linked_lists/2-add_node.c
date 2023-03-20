@@ -5,9 +5,9 @@
 /**
  * add_node - new node to beginning
  *
- * @head: A pointer to the head of the list_t list.
+ * @head: head of list ptr
  *
- * @str: The string to be added to the list_t list.
+ * @str: string to add
  *
  * Return: address of elem, Null on fail
  */
