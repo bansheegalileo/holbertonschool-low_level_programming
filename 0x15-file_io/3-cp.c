@@ -59,7 +59,7 @@ int main(int argc, char *argv[])
 /**
  * aloc_bfr - alloc8s 1024 to buffer
  *
- * @file: filename to store for
+ * @aleister: filename to store for
  *
  * Return: ptr to buffer
  */
@@ -80,9 +80,9 @@ char *aloc_bfr(char *aleister)
 }
 
 /**
- * cl_fil - closes file descs 
+ * cl_fil - closes file descs
  *
- * @fd: desc to close
+ * @crowley: desc to close
  */
 
 void cl_fil(int crowley)
