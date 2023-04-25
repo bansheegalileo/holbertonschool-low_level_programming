@@ -4,7 +4,6 @@
  * hash_table_delete - deletes ht
  *
  * @ht: ptr to hash
-
  */
 void hash_table_delete(hash_table_t *ht)
 {
